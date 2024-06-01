@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nanum+Gothic:wght@400;700&display=swap');
+
+
+body {
+   
+ display: grid;
+ justify-content: center;
+}
+#container {
+    height: 50vh;
+  text-align: center;
+}
+#container2{
+  background: #222;
+  color: #fff;
+ padding: 12px 12px 12px 12px;
+ border-radius: 12px;
+
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.color {
+  color: #F7CE68;
+}
+
+#button{
+  color: #fff;
+  background: #222;
+  border-top-right-radius: 11px;
+    padding: 10px;
+    border-bottom-left-radius: 11px;
+    border-style: double;
+    font-size: 15px;
+    margin: 0px 0px 0px 86px;
+}
+#button:hover{
+    color: rgb(96, 86, 86);
+    background: whitesmoke;
+}
